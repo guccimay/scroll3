@@ -1,0 +1,104 @@
+html
+ { background-color: white;
+ margin: 0;}
+
+a:hover {
+    color: blue;
+}
+
+a
+{text-decoration: none;
+color: black;}
+
+ body
+ {margin:0;}
+
+.background
+{width:100%;
+position: absolute;
+margin-top: 150px;}
+
+.allie
+{position: absolute;
+display: inline-block;
+border-style: solid;
+margin-top: 210px;
+margin-left: 60px;}
+
+.about
+{position: absolute;
+display: inline-block;
+margin-top: 210px;
+margin-left: 60px;}
+
+.pinktop
+{width: 100%;
+height: 150px;
+position: fixed;
+background-color: pink;
+z-index: 0;
+}
+
+.bluetop
+{width: 100%;
+height: 150px;
+position: fixed;
+background-color: blue;
+}
+
+.extremeimg
+{
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.leftcontainer
+{width: 49%;
+height: 100vh;
+overflow: scroll;
+float: left;
+margin-top: 150px;
+display: inline-block;
+border-right: solid black;}
+
+
+.rightcontainer
+{
+  float:right;
+  height: 100vh;
+  overflow: scroll;
+  width: 49%;
+  margin-top: 150px;
+  display: inline-block;
+}
+
+
+h2 {
+  font-family: 'Open Sans', helvetica;
+  font-size: 30px;
+  margin-bottom: 4px;
+  font-weight: lighter;
+  overflow: auto;
+  margin-left: 40px;
+}
+
+h3 {
+  font-family: 'Open Sans', helvetica;
+  font-size: 20px;
+  margin-bottom: 4px;
+  font-weight: lighter;
+  overflow: auto;
+  margin-left: 40px;
+}
+
+li
+{padding-bottom: 100px;}
+
+ul
+{
+  background-color: #FFF;
+  list-style: none;
+  text-decoration: none;
+  padding: 20px;
+
+}
